@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="container-flex">
+      <ul class="social-icons container-flex">
+        <li>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-github-alt"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-stack-overflow"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-codepen"></i></a>
+        </li>
+      </ul>
+      <ul class="menu container-flex">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Talks</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Resume</a></li>
+        <li><a href="#">Contact</a></li>
+        <li>
+          <a href="#">Pages <i class="fa-solid fa-caret-down"></i></a>
+        </li>
+        <li class="menu-icon"><a href="">
+          <i class="fa-solid fa-bars"></i>
+        </a></li>
+      </ul>
+    </nav>
+
+    <!-- Section info-->
+
+    <section class="section-info">
+      <div class="container container-flex">
+        <img src="images/profile.jpeg" alt="" width="240" />
+        <article class="section-info__text">
+          <p class="name-is">Hello my name is</p>
+          <h1>Steve Doe</h1>
+          <p class="bio">
+            I'm a full-stack developer specialised in frontend and backend
+            development for complex scalable web apps. I write about web
+            development on <a href="#">my blog</a> and regularly
+            <a href="#">speak</a> at various web conferences and meetups. Want
+            to know how I may help your project? Check out my project
+            <a href="#">case studies</a> and <a href="#">resume</a>.
+          </p>
+          <a class="btn" href="">Hire Me</a>
+        </article>
+      </div>
+    </section>
+
+    <!--Skills Overview-->
+    <section class="skills">
+      <div class="container container-skills container-flex column">
+        <div class="skills-overview">
+          <h3 class="text-center">Skills Overview</h3>
+          <div class="text-skills">
+            <p>
+              I have more than 8 years' experience building rich web
+              applications for clients all over the world. Below is a quick
+              overview of my main technical skill sets and tools I use. Want to
+              find out more about my experience?
+              <a href="">Check out my online resume</a>.
+            </p>
+          </div>
+        </div>
+        <div class="skills-cards container-flex row">
+          <!--Frontend block-->
+          <div class="blocks skills-block-left">
+            <div class="skills-block-inner">
+              <h4 class="fronted text-center">Fronted</h4>
+              <div class="skills-block-icon skills-icons">
+                <i class="fa-solid fa-file-code"></i>
+              </div>
+              <ul class="skills-list">
+                <li><i class="fa-solid fa-check"></i>React/Redux/Angular</li>
+                <li><i class="fa-solid fa-check"></i>Javascript</li>
+                <li><i class="fa-solid fa-check"></i>Node.js</li>
+                <li><i class="fa-solid fa-check"></i>Webpack/Gulp/Grunt</li>
+                <li><i class="fa-solid fa-check"></i>HTML/CSS/SASS/LESS</li>
+              </ul>
+            </div>
+          </div>
+
+          <!--Backend block-->
+          <div class="blocks skills-block-center">
+            <div class="skills-block-inner">
+              <h4 class="fronted text-center">Backend</h4>
+              <div class="skills-block-icon skills-icons">
+                <i class="fa-solid fa-database"></i>
+              </div>
+              <ul class="skills-list">
+                <li><i class="fa-solid fa-check"></i>Python/Django</li>
+                <li><i class="fa-solid fa-check"></i>Ruby/Rails</li>
+                <li><i class="fa-solid fa-check"></i>PHP</li>
+                <li><i class="fa-solid fa-check"></i>PostgresSQL/MySQL</li>
+                <li><i class="fa-solid fa-check"></i>MongoDBS</li>
+              </ul>
+            </div>
+          </div>
+
+          <!--Others skills-->
+          <div class="blocks skills-block-center">
+            <div class="skills-block-inner">
+              <h4 class="fronted text-center">Others</h4>
+
+              <div class="skills-block-icon right-icon skills-icons">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+              </div>
+
+              <ul class="skills-list">
+                <li><i class="fa-solid fa-check"></i>DevOps</li>
+                <li><i class="fa-solid fa-check"></i>Unit Testing</li>
+                <li><i class="fa-solid fa-check"></i>UX/Wireframing</li>
+                <li><i class="fa-solid fa-check"></i>Sketch/Balsamiq</li>
+                <li><i class="fa-solid fa-check"></i>Wordpress/Shopify</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Clients -->
+    <section class="clients">
+      <div class="container container-flex column">
+        <h3 class="text-center">Great clients I've worked with</h3>
+          <div class="best-clients container-flex">
+            <a href="">
+              <img src="images/logo-1.svg" alt="">
+            </a>
+            <a href="">
+              <img src="images/logo-2.svg" alt="">
+            </a>
+            <a href="">
+              <img src="images/logo-3.svg" alt="">
+            </a>
+            <a href="">
+              <img src="images/logo-4.svg" alt="">
+            </a>
+            <a href="">
+              <img src="images/logo-5.svg" alt="">
+            </a>
+            <a href="">
+              <img src="images/logo-6.svg" alt="">
+            </a>
+          </div>
+          <div class="container container-review">
+          <div class="review">
+            <p>Steve is a great developer! Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.</p>
+          </div>
+            <div class="client-profile container-flex">
+              <img src="images/profile.jpeg" 
+              alt=""
+              width="100"
+              class="client-profile-photo">
+              <div class="client-profile-name">
+              <span class="client-name">Adam Wells </span> 
+              <span class="client-name">Product manager, Google</span>
+              </div>
+               </div>
+            <div class="linked_in-profile container-flex">
+              <span>
+                <i class="fa-brands fa-linkedin"></i>
+                <a href="" class="linked-icon">
+                  View on LinkedIn
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+                </span>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- Section projects -->
+    <section class="projects">
+      <div class="container">
+        <h3 class="text-center">Featured Projects</h3>
+        <div class="project-cards container-flex">
+          <div class="card">
+           <a href="#">   
+             <div class="client-image">
+                <img  class="card-image"src="images/project-1-thumb.jpeg" width="100%" height="100%" alt="">
+                <img class="project-logo" src="images/logo-1-inverse.svg" alt="">
+                <div class="card-content">
+                  <h5>Client Google</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In facere sit quas maxime magni cum a asperiores est neque!</p>
+              </div>
+             </div>
+             <a>  
+            <div class="technologies container-flex">
+              <a href="#">
+                <h4>SaaS Product</h4>
+              </a>
+                <div class="technologies-pills">
+                  <span>Angular</span>
+                  <span>Jango</span>
+                  <span>MongoDB</span>
+                  <span>HTML/CSS</span>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <a href="#">   
+              <div class="client-image">
+                 <img  class="card-image"src="images/project-2-thumb.jpeg" width="100%" height="100%" alt="">
+                 <img class="project-logo" src="images/logo-2-inverse.svg" alt="">
+                 <div class="card-content">
+                   <h5>Client Basecamp</h5>
+                   <p>Project summary goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel sapien quis nulla dictum euismod...</p>
+               </div>
+              </div>
+              <a>  
+             <div class="technologies container-flex">
+               <a href="#">
+                 <h4>SaaS Product</h4>
+               </a>
+                 <div class="technologies-pills">
+                   <span>Rails</span>
+                   <span>JQuery</span>
+                   <span>PostgresSQL</span>
+                   <span>HTML/Sass</span>
+               </div>
+             </div>
+           </div>
+          <div class="card">
+           <a href="#">   
+             <div class="client-image">
+                <img  class="card-image"src="images/project-3-thumb.jpeg" width="100%" height="100%" alt="">
+                <img class="project-logo" src="images/logo-3-inverse.svg" alt="">
+                <div class="card-content">
+                  <h5>Client Airbnb</h5>
+                  <p>Project summary goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel sapien quis nulla dictum euismod...!</p>
+              </div>
+             </div>
+             <a>  
+            <div class="technologies container-flex">
+              <a href="#">
+                <h4>SaaS Product</h4>
+              </a>
+                <div class="technologies-pills">
+                  <span>React</span>
+                  <span>Python</span>
+                  <span>MySQL</span>
+                  <span>HTML</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button>View all projects</button>
+      </div>
+    </section>
+  </body>
+  </html>
+
+     
